@@ -1,0 +1,16 @@
+{
+  "name": "readz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify main.js > bundle.js" 
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concat-stream": "^1.4.7",
+    "drag-and-drop-files": "0.0.1",
+    "filereader-stream": "^0.2.0"
+  }
+}
