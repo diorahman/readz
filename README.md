@@ -28,7 +28,7 @@ open it using browser
 $ open index.html
 ```
 
-drop a gunzipped file
+drop a `gzip`-ed file
 
 # observation
 
