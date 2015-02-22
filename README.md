@@ -8,7 +8,13 @@ install browserify
 $ npm install -g browserify
 ```
 
-build it
+install deps
+
+```
+$ npm install
+```
+
+then, build it
 
 ```
 $ npm run build
