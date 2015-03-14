@@ -1,16 +1,30 @@
 {
   "name": "readz",
   "version": "1.0.0",
-  "description": "",
+  "description": "# build",
   "main": "index.js",
   "scripts": {
-    "build": "browserify main.js > bundle.js" 
+    "build": "browserify main.js > bundle.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dhi Aurrahman <diorahman@rockybars.com>",
+  "license": "MIT",
   "devDependencies": {
-    "concat-stream": "^1.4.7",
     "drag-and-drop-files": "0.0.1",
-    "filereader-stream": "^0.2.0"
-  }
+    "filereader-stream": "^0.2.0",
+    "through": "^2.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diorahman/readz.git"
+  },
+  "keywords": [
+    "readz",
+    "poc",
+    "gzip",
+    "browser"
+  ],
+  "bugs": {
+    "url": "https://github.com/diorahman/readz/issues"
+  },
+  "homepage": "https://github.com/diorahman/readz"
 }
