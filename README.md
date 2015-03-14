@@ -34,4 +34,4 @@ drop a `gzip`-ed file
 
 ![screen](http://g.recordit.co/pzSluqW2eI.gif)
 
-- still has `Uncaught Error: close is pending` when the stream is done
+- still has `Uncaught Error: close is pending` when the stream is done ([Fixed](https://github.com/diorahman/readz/commit/39ec158b926658ce05854f705a02f660ac04e38d))
